@@ -21,3 +21,13 @@ hr {
 	margin-left:65px;
 	margin-right:65px;
 }
+.item-input {
+	text-align:center;
+	margin-top:30px;
+}
+.item-input input[type="text"] {
+	border:solid;
+	border-color:grey;
+	border-size:1px;
+	border-radius:5px;
+}
