@@ -1,0 +1,23 @@
+body {
+	background-color: #a2c4c9;
+}
+.heading {
+	text-align: center;
+}
+.heading img {
+	height:75px;
+	width:75px;
+	border:solid;
+	border-radius:20px;
+	border-color:grey;
+}
+.heading h1 {
+	font-size:36px;
+	margin-top:-5px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color: #2b78e4;
+}
+hr {
+	margin-left:65px;
+	margin-right:65px;
+}
