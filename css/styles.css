@@ -31,15 +31,19 @@ hr {
 	width: 500px;
 	text-align: center;
 	height:30px;
-	display:inline-block;
+	display:table;
+	margin:15px auto;
 	background-color:#808080;
 	color:white;
 }
 .item-list {
 	text-align:center;
-	margin-left:-40px;
+	margin-top: 25px;
+	width:500px;
+	margin: 20px auto;
+
 }
-.item-list ul {
+.item-list p {
 	display:inline-block;
 	text-align:center;
 	list-style:none;
@@ -52,8 +56,24 @@ hr {
 	height:30px;
 	background-color:#303030;
 	color:white;
-	margin-top:5px;
+	margin-top:-6px;
 	font-size:12pt;
 	line-height:24pt;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.item-list .cross {
+	float:left;
+	color:#2b78e4;
+	cursor:pointer;
+	margin-left:10px;
+	font-size:1.5em;
+	margin-top:-2px;
+}
+.item-list .check {
+	float: right;
+	color:#2b78e4 ;
+	margin-right:10px;
+	cursor:pointer;
+	font-size:1.5em;
+	margin-top: -2px;
 }
