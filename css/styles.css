@@ -26,8 +26,34 @@ hr {
 	margin-top:30px;
 }
 .item-input input[type="text"] {
-	border:solid;
-	border-color:grey;
-	border-size:1px;
+	border:none;
 	border-radius:5px;
+	width: 500px;
+	text-align: center;
+	height:30px;
+	display:inline-block;
+	background-color:#808080;
+	color:white;
+}
+.item-list {
+	text-align:center;
+	margin-left:-40px;
+}
+.item-list ul {
+	display:inline-block;
+	text-align:center;
+	list-style:none;
+}
+.item-list .need {
+	border:none;
+	border-radius:5px;
+	width: 500px;
+	text-align: center;
+	height:30px;
+	background-color:#303030;
+	color:white;
+	margin-top:5px;
+	font-size:12pt;
+	line-height:24pt;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
