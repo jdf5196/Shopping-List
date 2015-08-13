@@ -5,6 +5,8 @@
 	<title>Shopping List</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="icon" type="image/jpeg" href="images/carticon.jpeg">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/add-items.js"></script>
 </head>
 <body>
 	<div class="heading">
@@ -13,24 +15,9 @@
 	</div>
 	<hr>
 	<div class="item-input">
-		<input type="text" placeholder="+Add Item To List+">
+		<input type="text" id="additem" maxlength="33" placeholder="+Type Item Name And Press Enter+">
 	</div>
 	<div class="item-list">
-		<p class="need">
-			<span class="cross">&#x2717</span>
-			Milk
-			<span class="check">&#x2713</span>
-		</p>
-		<p class="need">
-			<span class="cross">&#x2717</span>
-			Bread
-			<span class="check">&#x2713</span>
-		</p>
-		<p class="need">
-			<span class="cross">&#x2717</span>
-			Milk
-			<span class="check">&#x2713</span>
-		</p>
 	</div>
 </body>
 </html>
